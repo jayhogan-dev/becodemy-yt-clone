@@ -1,5 +1,3 @@
-import { View, Text } from 'react-native';
-import React from 'react';
 import { Stack } from 'expo-router';
 import { ThemeProvider } from '../context/ThemeContext';
 
@@ -8,6 +6,7 @@ export default function _layout() {
     <ThemeProvider>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="index" />
+        <Stack.Screen name="(routes)/onboarding/index" />
       </Stack>
     </ThemeProvider>
   );
