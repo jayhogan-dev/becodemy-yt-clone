@@ -1,12 +1,8 @@
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import OnboardingScreen from '@/screens/onboarding/OnboardingScreen';
+import { StyleSheet } from 'react-native';
 
 const index = () => {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>index</Text>
-    </View>
-  );
+  return <OnboardingScreen />;
 };
 
 export default index;
